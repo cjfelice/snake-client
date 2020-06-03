@@ -11,7 +11,7 @@ const connect = function() {
 
   conn.on('connect', () => console.log('you on the plane!'));
 
-  conn.on('connect', () => conn.write('Name: Isz'))
+  conn.on('connect', () => conn.write('Name: Isz'));
 
   conn.setEncoding('utf8'); 
 
